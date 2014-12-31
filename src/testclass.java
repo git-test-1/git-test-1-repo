@@ -3,6 +3,7 @@ public class testclass {
 
 	private String [] [] product;
 	private int quantity;
+	private String companyName;
 
 	/**
 	 * 
@@ -30,4 +31,22 @@ public class testclass {
 		
 	}	
 
+	/**
+	 * @param args
+	 */
+	public void companyName(String i) {
+	
+		companyName=i;
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public String companyName() {
+	
+		return companyName;
+		
+	}	
+	
 }
